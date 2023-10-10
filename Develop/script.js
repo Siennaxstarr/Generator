@@ -10,6 +10,7 @@ print = ("Generated password is ", password)
 var generateBtn = document.querySelector("#generate");
 function generatePassword() {
     console.log("Hello! You clicked the button!")
+    console.log("First Attempt")
 // 1. Prompt the user for the password criteria
 //      a. Password Length 8 < 128
 //      b. Lowercase, uppercase, numbers, special characters
@@ -17,7 +18,7 @@ function generatePassword() {
 // 3. Generate Password based on Criteria 
 
 // 4.Display password on to the page 
- return "1xTvuMbrE2";
+ return "Generated Password";
 }
 function writePassword(){
     var password = generatePassword();
